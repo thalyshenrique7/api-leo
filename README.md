@@ -14,9 +14,9 @@
 + DELETE http://localhost:8081/api/usuario
 + PUT http://localhost:8081/api/usuario
 
-> GET http://localhost:8081/api/usuario
-
 #### Exemplos:
+
+> GET http://localhost:8081/api/usuario
 
 #### Retorno:
 
