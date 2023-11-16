@@ -2,6 +2,7 @@ package com.dev.apileo.model;
 
 import java.util.Calendar;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,10 +17,13 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	@Column(nullable = false)
 	private String nome;
 
+	@Column(nullable = false)
 	private String cpf;
 
+	@Column(nullable = false)
 	private String rg;
 
 	private Calendar dataCriacao;
